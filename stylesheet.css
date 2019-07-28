@@ -1,0 +1,67 @@
+charset "UTF-8";
+html{
+  display: block;
+}
+body{
+  display: block;
+}
+
+.container{
+  background-color: #fabb1f;
+  width:800px;
+  height: 300px;
+  padding: 100px;
+  margin: 50px auto;
+  border: solid 3px #FFFFFF;/*線*/
+  border-radius: 20px;/*角の丸み*/
+}
+
+p.title-msg{
+  color: #FFFFFF;
+  font-wight: bold;
+  font-size: 78px;
+  float:left;
+  margin: auto;
+  padding: 50px;
+}
+
+p.detail-msg{
+  color: #FFFFFF;
+  font-size:20px;
+  float: left;
+  position:absolute;
+  margin:auto;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+img{
+
+}
+.right-container{
+  float: right;
+
+}
+
+.btn-flat {
+  position: relative;
+  float: right;
+  margin-right: 200px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #000000;
+  transition: .4s;
+  border-radius: 3px;
+}
+
+.btn-flat:hover {
+  background: #696969;
+  color: white;
+}
